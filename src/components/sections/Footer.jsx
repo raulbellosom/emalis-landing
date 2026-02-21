@@ -90,7 +90,7 @@ export const Footer = () => {
                     {siteContent.phone}
                   </a>
                   <span className="text-gray-500 text-xs mt-1">
-                    Lunes a Sábado
+                    {siteContent.schedule}
                   </span>
                 </div>
               </div>

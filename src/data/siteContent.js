@@ -6,6 +6,7 @@ export const siteContent = {
   address: "16 de Octubre #5B, San Vicente, Nayarit",
   googleMapsUrl: "https://maps.app.goo.gl/M2mkr7Tm3NaP5v987",
   facebookUrl: "https://www.facebook.com/profile.php?id=61585665306519",
+  schedule: "Lun - Vie: 9:00 am - 8:00 pm | Sáb: 10:00 am - 1:00 pm",
   inaugurationDate: "21 de febrero de 2026",
 
   hero: {
