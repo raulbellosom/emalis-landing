@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /logo.jpeg
+Allow: /assets/
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://emalisdental.com/sitemap.xml

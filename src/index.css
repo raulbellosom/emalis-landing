@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Poppins", sans-serif;
+  --color-brand-primary: #d1bfae; /* Dorado/beige suave */
+  --color-brand-secondary: #fce4ec; /* Rosa claro */
+  --color-brand-accent: #8d6e63; /* Marrón/Gris cálido */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply antialiased text-gray-800 bg-gray-50;
+  }
+}
