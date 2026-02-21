@@ -5,6 +5,8 @@ import { Button } from "../ui/Button";
 import { Container } from "../ui/Container";
 import { Badge } from "../ui/Badge";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import draEmma from "../../assets/Dra_Emma_Elizalde.png";
+import logo from "../../assets/logo.jpeg";
 
 export const Hero = () => {
   const { scrollY } = useScroll();
@@ -107,7 +109,7 @@ export const Hero = () => {
               <div className="relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden border-8 border-white shadow-2xl z-0">
                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-white/60 to-transparent pointer-events-none z-20" />
                 <img
-                  src="/src/assets/Dra_Emma_Elizalde.png"
+                  src={draEmma}
                   alt={siteContent.doctorName}
                   className="relative z-10 w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                 />
@@ -125,7 +127,7 @@ export const Hero = () => {
               >
                 <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#fce4ec] flex-shrink-0">
                   <img
-                    src="/src/assets/logo.jpeg"
+                    src={logo}
                     alt="Logo"
                     className="w-full h-full object-cover"
                   />

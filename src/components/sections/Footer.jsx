@@ -7,6 +7,7 @@ import {
   FaMapMarkerAlt,
   FaEnvelope,
 } from "react-icons/fa";
+import logo from "../../assets/logo.jpeg";
 
 export const Footer = () => {
   return (
@@ -17,7 +18,7 @@ export const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/logo.jpeg"
+                src={logo}
                 alt="EMALIS"
                 className="w-12 h-12 rounded-full border-2 border-[#fce4ec]"
               />

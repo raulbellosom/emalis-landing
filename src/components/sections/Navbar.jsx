@@ -3,6 +3,7 @@ import { cn } from "../../utils/cn";
 import { siteContent } from "../../data/siteContent";
 import { Button } from "../ui/Button";
 import { FaBars, FaTimes, FaWhatsapp } from "react-icons/fa";
+import logo from "../../assets/logo.jpeg";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +42,7 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-2 group">
             <img
-              src="/src/assets/logo.jpeg"
+              src={logo}
               alt={siteContent.clinicName}
               className={cn(
                 "w-10 h-10 md:w-12 md:h-12 rounded-full object-cover transition-all",

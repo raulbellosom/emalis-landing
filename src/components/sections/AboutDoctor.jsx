@@ -4,6 +4,10 @@ import { siteContent } from "../../data/siteContent";
 import { Container } from "../ui/Container";
 import { SectionTitle } from "../ui/SectionTitle";
 import { FaCheckCircle } from "react-icons/fa";
+import recepcion from "../../assets/recepcion.jpeg";
+import salaEspera from "../../assets/sala_espera.jpeg";
+import consultorio2 from "../../assets/consultorio_2.jpeg";
+import logo from "../../assets/logo.jpeg";
 
 export const AboutDoctor = () => {
   return (
@@ -22,7 +26,7 @@ export const AboutDoctor = () => {
               {/* Top Left Image */}
               <div className="absolute top-0 left-0 w-32 h-32 md:w-48 md:h-48 rounded-3xl overflow-hidden shadow-lg border-4 border-white z-0 transform -rotate-6">
                 <img
-                  src="/src/assets/recepcion.jpeg"
+                  src={recepcion}
                   className="w-full h-full object-cover"
                   alt="Recepción"
                 />
@@ -31,7 +35,7 @@ export const AboutDoctor = () => {
               {/* Bottom Right Image */}
               <div className="absolute bottom-0 right-0 w-40 h-28 md:w-56 md:h-40 rounded-3xl overflow-hidden shadow-lg border-4 border-white z-20 transform rotate-3">
                 <img
-                  src="/src/assets/sala_espera.jpeg"
+                  src={salaEspera}
                   className="w-full h-full object-cover"
                   alt="Sala de espera"
                 />
@@ -40,7 +44,7 @@ export const AboutDoctor = () => {
               {/* Main Image */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-64 md:w-64 md:h-80 rounded-[32px] overflow-hidden shadow-2xl border-4 border-white z-10">
                 <img
-                  src="/src/assets/consultorio_2.jpeg"
+                  src={consultorio2}
                   className="w-full h-full object-cover"
                   alt="Consultorio"
                 />
@@ -64,7 +68,7 @@ export const AboutDoctor = () => {
                 }}
               >
                 <img
-                  src="/src/assets/logo.jpeg"
+                  src={logo}
                   alt="EMALIS"
                   className="w-10 h-10 rounded-full object-cover"
                 />
