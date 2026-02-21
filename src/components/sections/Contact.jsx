@@ -14,7 +14,6 @@ import {
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
-    phone: "",
     message: "",
   });
 
@@ -23,7 +22,7 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hola Dra. Emma, soy ${formData.name}. ${formData.message}. (Tel: ${formData.phone})`;
+    const text = `Hola Dra. Emma, soy ${formData.name}. ${formData.message}.`;
     const whatsappUrl = `https://wa.me/${siteContent.phone.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -123,43 +122,23 @@ export const Contact = () => {
               </h3>
 
               <div className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Nombre completo
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      value={formData.name}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[#8d6e63] focus:border-transparent transition-all outline-none"
-                      placeholder="Juan Pérez"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-sm font-medium text-gray-700 mb-2"
-                    >
-                      Teléfono / WhatsApp
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      required
-                      value={formData.phone}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[#8d6e63] focus:border-transparent transition-all outline-none"
-                      placeholder="322 123 4567"
-                    />
-                  </div>
+                <div className="md:col-span-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
+                    Nombre completo
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[#8d6e63] focus:border-transparent transition-all outline-none"
+                    placeholder="Juan Pérez"
+                  />
                 </div>
 
                 <div>

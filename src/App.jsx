@@ -15,7 +15,7 @@ import { FloatingWhatsApp } from "./components/ui/FloatingWhatsApp";
 
 function App() {
   return (
-    <div className="font-sans text-gray-800 bg-gray-50 min-h-screen flex flex-col selection:bg-[#fce4ec] selection:text-[#8d6e63]">
+    <div className="font-sans text-gray-800 bg-gray-50 min-h-screen flex flex-col selection:bg-[#fce4ec] selection:text-[#8d6e63] overflow-x-hidden w-full relative">
       <Navbar />
 
       <main className="flex-grow">
