@@ -56,7 +56,7 @@ export const Contact = () => {
       icon: <FaMapMarkerAlt className="text-3xl" />,
       title: "Ubicación",
       link: siteContent.googleMapsUrl,
-      text: "El Porvenircente",
+      text: "El El Porvenir",
       bg: "bg-red-50 text-red-600",
     },
   ];
