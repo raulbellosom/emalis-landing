@@ -56,7 +56,7 @@ export const Contact = () => {
       icon: <FaMapMarkerAlt className="text-3xl" />,
       title: "Ubicación",
       link: siteContent.googleMapsUrl,
-      text: "San Vicente",
+      text: "El Porvenircente",
       bg: "bg-red-50 text-red-600",
     },
   ];

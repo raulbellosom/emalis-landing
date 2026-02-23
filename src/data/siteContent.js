@@ -3,7 +3,7 @@ export const siteContent = {
   doctorName: "Dra. Emma María Elizalde Domínguez",
   phone: "+52 322 132 3896",
   phoneFormatted: "322 132 3896",
-  address: "16 de Octubre #5B, San Vicente, Nayarit",
+  address: "16 de Octubre #5B, El Porvenircente, Nayarit",
   googleMapsUrl: "https://maps.app.goo.gl/M2mkr7Tm3NaP5v987",
   facebookUrl: "https://www.facebook.com/profile.php?id=61585665306519",
   schedule: "Lun - Vie: 9:00 am - 8:00 pm | Sáb: 10:00 am - 1:00 pm",
@@ -13,7 +13,7 @@ export const siteContent = {
     headline: "Sonrisas saludables, atención cálida y profesional.",
     subheadline:
       "Nos preocupamos por tu comodidad y salud bucal, brindándote un trato humano y experto.",
-    chips: ["Atención personalizada", "Citas", "San Vicente, Nayarit"],
+    chips: ["Atención personalizada", "Citas", "El Porvenircente, Nayarit"],
   },
 
   services: [
@@ -90,7 +90,7 @@ export const siteContent = {
     },
     {
       title: "Ubicación accesible",
-      desc: "Fácil de llegar, en el corazón de San Vicente.",
+      desc: "Fácil de llegar, en el corazón de El Porvenircente.",
     },
     {
       title: "Seguimiento",
@@ -147,7 +147,7 @@ export const siteContent = {
     },
     {
       q: "¿Dónde están ubicados?",
-      a: "En 16 de Octubre #5B, San Vicente, Nayarit, México.",
+      a: "En 16 de Octubre #5B, El Porvenircente, Nayarit, México.",
     },
   ],
 
